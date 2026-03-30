@@ -341,3 +341,40 @@ print("Scalar:", scalar)
 print("Vector:", vector)
 print("Matrix:\n", matrix)
 
+
+### 2. Perform vector addition and scalar multiplication
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+
+print("\nVector a:", a)
+print("Vector b:", b)
+print("Addition:", a + b)
+print("Scalar multiplication (2 * a):", 2 * a)
+
+
+### 3. Find the dot product
+print("\nDot product:", np.dot(a, b))
+
+
+### 4. Perform matrix addition and multiplication
+m1 = np.array([[1, 2], [3, 4]])
+m2 = np.array([[5, 6], [7, 8]])
+
+print("\nMatrix m1:\n", m1)
+print("Matrix m2:\n", m2)
+print("Addition:\n", m1 + m2)
+print("Multiplication:\n", np.dot(m1, m2))
+
+
+### 5. Transpose, determinant, and inverse
+m = np.array([[1, 2], [3, 4]])
+
+print("\nOriginal matrix:\n", m)
+print("Transpose:\n", m.T)
+print("Determinant:", np.linalg.det(m))
+print("Inverse:\n", np.linalg.inv(m))
+
+
+### 6. Check shape of vector and matrix
+print("\nVector shape:", vector.shape)
+print("Matrix shape:", matrix.shape)
