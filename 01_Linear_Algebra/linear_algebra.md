@@ -329,7 +329,9 @@ $$
 
 ## Coding Tasks (use Colab or notebook)
 
+```markdown
 ### 1. Create scalar, vector, and matrix
+
 ```python
 import numpy as np
 
@@ -342,39 +344,70 @@ print("Vector:", vector)
 print("Matrix:\n", matrix)
 
 
+```markdown
 ### 2. Perform vector addition and scalar multiplication
+
+```python
+import numpy as np
+
 a = np.array([1, 2, 3])
 b = np.array([4, 5, 6])
 
-print("\nVector a:", a)
+print("Vector a:", a)
 print("Vector b:", b)
 print("Addition:", a + b)
 print("Scalar multiplication (2 * a):", 2 * a)
 
 
+```markdown
 ### 3. Find the dot product
-print("\nDot product:", np.dot(a, b))
+
+```python
+import numpy as np
+
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+
+print("Dot product:", np.dot(a, b))
 
 
+```markdown
 ### 4. Perform matrix addition and multiplication
+
+```python
+import numpy as np
+
 m1 = np.array([[1, 2], [3, 4]])
 m2 = np.array([[5, 6], [7, 8]])
 
-print("\nMatrix m1:\n", m1)
+print("Matrix m1:\n", m1)
 print("Matrix m2:\n", m2)
 print("Addition:\n", m1 + m2)
 print("Multiplication:\n", np.dot(m1, m2))
 
 
+```markdown
 ### 5. Transpose, determinant, and inverse
+
+```python
+import numpy as np
+
 m = np.array([[1, 2], [3, 4]])
 
-print("\nOriginal matrix:\n", m)
+print("Original matrix:\n", m)
 print("Transpose:\n", m.T)
 print("Determinant:", np.linalg.det(m))
 print("Inverse:\n", np.linalg.inv(m))
 
 
+```markdown
 ### 6. Check shape of vector and matrix
-print("\nVector shape:", vector.shape)
+
+```python
+import numpy as np
+
+vector = np.array([1, 2, 3])
+matrix = np.array([[1, 2], [3, 4], [5, 6]])
+
+print("Vector shape:", vector.shape)
 print("Matrix shape:", matrix.shape)
