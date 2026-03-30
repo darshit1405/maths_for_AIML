@@ -16,7 +16,7 @@
 
 - So if we understand linear algebra clearly, it becomes much easier to understand machine learning.
 
-## 1. Scalar, Vector, and Matrix
+## Scalar, Vector, and Matrix
 
 - A **scalar** is just a single number.
 
@@ -65,7 +65,7 @@ $$
   - vector = one-dimensional collection of numbers
   - matrix = two-dimensional collection of numbers
 
-## 2. Shape and Dimension
+## Shape and Dimension
 
 - The **shape** tells us how many rows and columns an object has.
 
@@ -108,7 +108,7 @@ This simply multiplies each element of the vector.
 
 - In ML, scalar multiplication appears when applying learning rates and scaling values.
 
-## 5. Dot Product
+## Dot Product
 
 - The **dot product** is one of the most important operations in linear algebra.
 
@@ -207,7 +207,7 @@ Final matrix:
 [43  50]
 - In machine learning, matrix multiplication is extremely important because models use it to transform input data into predictions.
 
-## 8. Transpose of a Matrix
+## Transpose of a Matrix
 
 - The **transpose** of a matrix means converting rows into columns and columns into rows.
 
@@ -234,7 +234,7 @@ $$
 
 - Transpose is used in many formulas in ML, especially in optimization and matrix operations.
 
-## 9. Identity Matrix
+## Identity Matrix
 
 - The **identity matrix** is a special square matrix with:
   - 1 on the main diagonal
@@ -259,7 +259,7 @@ $$
 
 - Identity matrices are used in many mathematical operations, including inverses and regularization.
 
-## 10. Inverse of a Matrix
+## Inverse of a Matrix
 
 - The inverse of a matrix is similar to reciprocal in normal arithmetic.
 
@@ -274,7 +274,7 @@ $$
 
 - Inverse is useful in solving systems of equations and appears in some ML formulas.
 
-## 11. Determinant
+## Determinant
 
 - The determinant is a number associated with a square matrix.
 
@@ -301,7 +301,7 @@ $$
   - scaling effect
   - dependency between rows/columns
 
-## 12. Linear Algebra in Machine Learning
+## Linear Algebra in Machine Learning
 
 - In machine learning:
   - one data sample is usually a vector
@@ -315,7 +315,7 @@ $$
 
 - So linear algebra is not just theory. It is the actual language in which machine learning data is written.
 
-## 13. Key Takeaways
+## Key Takeaways
 
 - Scalar = one number
 - Vector = ordered list of numbers
