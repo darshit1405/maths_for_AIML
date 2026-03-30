@@ -79,54 +79,30 @@ Examples:
   - two vectors can be added only if they have the same size
   - matrix multiplication works only when inner dimensions match
 
-## 3. Vector Addition
+## Vector Addition
 
-- If two vectors have the same size, we can add them element by element.
+If two vectors have the same size, we add them element by element.
 
 Example:
 
-$$
-\begin{bmatrix}
-1 \\
-2 \\
-3
-\end{bmatrix}
-+
-\begin{bmatrix}
-4 \\
-5 \\
-6
-\end{bmatrix}
-=
-\begin{bmatrix}
-5 \\
-7 \\
-9
-\end{bmatrix}
-$$
+a = [1, 2, 3]  
+b = [4, 5, 6]  
+
+Result:
+
+[1+4, 2+5, 3+6] = [5, 7, 9]
 
 - This is useful when combining information or updating parameters.
 
-## 4. Scalar Multiplication
+## Scalar Multiplication
 
-- A vector can be multiplied by a scalar.
+A vector can be multiplied by a single number (scalar).
 
 Example:
 
-$$
-2
-\begin{bmatrix}
-1 \\
-2 \\
-3
-\end{bmatrix}
-=
-\begin{bmatrix}
-2 \\
-4 \\
-6
-\end{bmatrix}
-$$
+2 × [1, 2, 3] = [2, 4, 6]
+
+This simply multiplies each element of the vector.
 
 - This changes the size of the vector but not its basic direction if the scalar is positive.
 
@@ -174,79 +150,61 @@ $$
   - neural networks
   - similarity calculations
 
-## 6. Matrix Addition
+## Matrix Addition
 
-- Two matrices can be added if they have the same shape.
+Two matrices can be added if they have the same shape.
 
 Example:
 
-$$
-\begin{bmatrix}
-1 & 2 \\
-3 & 4
-\end{bmatrix}
-+
-\begin{bmatrix}
-5 & 6 \\
-7 & 8
-\end{bmatrix}
-=
-\begin{bmatrix}
-6 & 8 \\
-10 & 12
-\end{bmatrix}
-$$
+Matrix A:
+[1  2]  
+[3  4]
+
+Matrix B:
+[5  6]  
+[7  8]
+
+Result:
+
+[1+5   2+6]  
+[3+7   4+8]
+
+=  
+
+[6   8]  
+[10  12]
 
 - This is just element-by-element addition.
 
-## 7. Matrix Multiplication
+## Matrix Multiplication
 
-- Matrix multiplication is different from normal element-wise multiplication.
-
-If matrix $A$ has shape $(m, n)$ and matrix $B$ has shape $(n, p)$, then:
-
-$$
-A \times B
-$$
-
-is possible, and the result has shape $(m, p)$.
+Matrix multiplication is not element-wise.  
+We multiply rows of the first matrix with columns of the second.
 
 Example:
 
-$$
-\begin{bmatrix}
-1 & 2 \\
-3 & 4
-\end{bmatrix}
-\begin{bmatrix}
-5 & 6 \\
-7 & 8
-\end{bmatrix}
-=
-\begin{bmatrix}
-19 & 22 \\
-43 & 50
-\end{bmatrix}
-$$
+Matrix A:
+[1  2]  
+[3  4]
 
-because:
+Matrix B:
+[5  6]  
+[7  8]
 
-$$
-19 = 1\cdot5 + 2\cdot7
-$$
+Result:
 
-$$
-22 = 1\cdot6 + 2\cdot8
-$$
+First row:
+(1×5 + 2×7) = 19  
+(1×6 + 2×8) = 22  
 
-$$
-43 = 3\cdot5 + 4\cdot7
-$$
+Second row:
+(3×5 + 4×7) = 43  
+(3×6 + 4×8) = 50  
 
-$$
-50 = 3\cdot6 + 4\cdot8
-$$
+Final matrix:
 
+[19  22]  
+[43  50]
 - In machine learning, matrix multiplication is extremely important because models use it to transform input data into predictions.
 
 ## 8. Transpose of a Matrix
