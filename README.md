@@ -83,5 +83,3 @@ This repository is a work in progress. I will keep improving it as I learn more 
 This is part of my AI/ML learning journey where I am focusing on building strong fundamentals in mathematics.
 
 ---
-
-⭐ If you find this useful, feel free to give a star.
