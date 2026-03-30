@@ -128,7 +128,7 @@ If two features are highly correlated, one can be removed.
 
 ## Coding Tasks (use Colab or notebook)
 
-### 1. Mean, Median, Variance, Standard Deviation
+###1. Mean, Median, Variance, Standard Deviation
 
 ```python
 import numpy as np
