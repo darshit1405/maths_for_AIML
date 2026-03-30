@@ -153,3 +153,13 @@ y = x**2
 
 print("x:", x)
 print("y = x^2:", y)
+
+### 2. Derivative (manual)
+
+```python
+x = 2
+derivative = 2 * x
+
+print("Derivative at x=2:", derivative)
+
+
